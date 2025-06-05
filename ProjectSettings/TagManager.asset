@@ -48,6 +48,3 @@ TagManager:
   - name: Player
     uniqueID: 3948514471
     locked: 0
-  - name: floor
-    uniqueID: 327776243
-    locked: 0
