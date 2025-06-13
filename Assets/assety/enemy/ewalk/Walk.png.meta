@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad0a36c61f019eb4f8a4971a90857700
+guid: 8d690d195d12a264a992e78793c142a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dead_0
+      name: Walk_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 27
         y: 0
-        width: 84
-        height: 82
+        width: 55
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28d82d1d05fca1b4181e9e6d733c4bdc
-      internalID: -544078256
+      spriteID: a3d9ca8c7c01e2b4297c288ac190a850
+      internalID: 1448043227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_1
+      name: Walk_1
       rect:
         serializedVersion: 2
-        x: 137
+        x: 158
         y: 0
-        width: 89
-        height: 75
+        width: 57
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4f21d1fc391fa44987671832952b87
-      internalID: 1867002374
+      spriteID: 11bf86954694d6b4297ae881f4f2fd42
+      internalID: 1014328644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_2
+      name: Walk_2
       rect:
         serializedVersion: 2
-        x: 262
+        x: 280
         y: 0
-        width: 90
-        height: 70
+        width: 65
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 276d909d78634e44392f4f070983550c
-      internalID: -1346952158
+      spriteID: d368b8fab9abf024e979270e91498a05
+      internalID: 1946033837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_3
+      name: Walk_3
       rect:
         serializedVersion: 2
-        x: 395
+        x: 408
         y: 0
-        width: 87
-        height: 68
+        width: 70
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86cafb2fa50e9494e815a9c42d4b8e9e
-      internalID: -1789425466
+      spriteID: 0a7c6595ed5b9e648a8373a622f979a4
+      internalID: -1394055980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_4
+      name: Walk_4
       rect:
         serializedVersion: 2
-        x: 528
+        x: 535
         y: 0
-        width: 92
-        height: 30
+        width: 60
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde57b60f05840b45a2315746983d015
-      internalID: 2085969379
+      spriteID: 4a50f61f014d30f46a85d5c001189d7d
+      internalID: -821967686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead_5
+      name: Walk_5
       rect:
         serializedVersion: 2
-        x: 660
+        x: 664
         y: 0
-        width: 90
-        height: 28
+        width: 58
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da2a116c77d9a0540a947e2976cc9dca
-      internalID: 1081983401
+      spriteID: 98d79413dcecee742a9950af667dc963
+      internalID: 795790292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 64
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e322f26a8e5c4849859c17785f72830
+      internalID: -123356868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 0
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f77fcd9b3d18df4ebea96ed09bcd4a8
+      internalID: 1883352392
       vertices: []
       indices: 
       edges: []
@@ -233,12 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dead_0: -544078256
-      Dead_1: 1867002374
-      Dead_2: -1346952158
-      Dead_3: -1789425466
-      Dead_4: 2085969379
-      Dead_5: 1081983401
+      Walk_0: 1448043227
+      Walk_1: 1014328644
+      Walk_2: 1946033837
+      Walk_3: -1394055980
+      Walk_4: -821967686
+      Walk_5: 795790292
+      Walk_6: -123356868
+      Walk_7: 1883352392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
