@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -21.45, y: 0.088, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7882190388269520078}
@@ -196,8 +196,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PatrolSpeed","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FlipPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"E_Health","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8745253007811667987}
 --- !u!114 &4313882898085464311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,13 +226,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3655855751064879040}
     m_Modifications:
+    - target: {fileID: 4235248512497479624, guid: 0d61a9489d1115244b0545abbd327fef, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4984649917376847092, guid: 0d61a9489d1115244b0545abbd327fef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.37
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 4984649917376847092, guid: 0d61a9489d1115244b0545abbd327fef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.421
+      value: -0.377
       objectReference: {fileID: 0}
     - target: {fileID: 4984649917376847092, guid: 0d61a9489d1115244b0545abbd327fef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -274,5 +282,10 @@ PrefabInstance:
 --- !u!4 &7882190388269520078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4984649917376847092, guid: 0d61a9489d1115244b0545abbd327fef, type: 3}
+  m_PrefabInstance: {fileID: 2904297108563609658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8745253007811667987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5842087442947448873, guid: 0d61a9489d1115244b0545abbd327fef, type: 3}
   m_PrefabInstance: {fileID: 2904297108563609658}
   m_PrefabAsset: {fileID: 0}
